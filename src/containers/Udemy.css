@@ -1,0 +1,22 @@
+.Udemy ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.Udemy li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.Udemy a {
+    text-decoration: none;
+    color: black;
+}
+
+.Udemy a:hover,
+.Udemy a:active,
+.Udemy a.active {
+    color: blue;
+}
