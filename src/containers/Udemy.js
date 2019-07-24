@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Courses from "../containers/Courses/Courses.js";
+import Course from '../containers/Course/Course.js';
 import Users from "../containers/Users/Users.js";
 import { NavLink, Route } from "react-router-dom";
 import "./Udemy.css";
@@ -24,6 +25,7 @@ class Udemy extends Component {
 
             <Route path ="/users" exact component = {Users}/>
             <Route path ="/courses" exact component = {Courses}/>
+            <Route path = "/courses/:id" exact component = {Course}/>
             
           
         </div>
